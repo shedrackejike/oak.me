@@ -500,7 +500,6 @@ function Section9() {
                      <Box display={'flex'} alignItems='center' justifyContent={'space-between'}>
                         <Box w='15%' justifyContent={"right"}>
 
-                            <Image boxSize='20px' ml="8" src='/image/badge-check.png'/>
 
                             <Image
                         h={'100%'}
