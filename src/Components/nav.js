@@ -8,6 +8,7 @@ import {
   useColorMode,
   Text,
   Button,
+  Box,
 } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -168,32 +169,37 @@ const Nav = () => {
           width={"100%"}
           align={"center"}
         >
-            <Menu>
-            <MenuButton fontWeight="700" textColor={'#0354C2'}>WhyOak</MenuButton>
+            <Box>
+            <Text fontWeight="700" textColor={'#0354C2'}>WhyOak</Text>
                 <Link to="/WhyOak"></Link>
-          </Menu>
+          </Box>
 
-          <Menu>
-            <MenuButton fontWeight="700" textColor={'#0354C2'}>Solutions</MenuButton>
+          <Box>
+            <Text fontWeight="700" textColor={'#0354C2'}>Solutions</Text>
            
-          </Menu>
-          <Menu>
-            <MenuButton fontWeight="700" textColor={'#0354C2'}>Features & Integrations</MenuButton>
+          </Box>
+
+          <Box>
+            <Text fontWeight="700" textColor={'#0354C2'}>Features & Integrations</Text>
             
-          </Menu>
-          <Menu>
-            <MenuButton fontWeight="700" textColor={'#0354C2'}>Customers</MenuButton>
+          </Box>
+
+          <Box>
+            <Text fontWeight="700" textColor={'#0354C2'}>Customers</Text>
             <Link to="/customer" ></Link>
 
-          </Menu>
-          <Menu>
-            <MenuButton fontWeight="700" textColor={'#0354C2'}>Resources</MenuButton>
+          </Box>
+
+          <Box>
+            <Text fontWeight="700" textColor={'#0354C2'}>Resources</Text>
           
-          </Menu>
-          <Menu>
-            <MenuButton fontWeight="700" textColor={'#0354C2'}>About</MenuButton>
+          </Box>
+
+
+          <Box>
+            <Text fontWeight="700" textColor={'#0354C2'}>About</Text>
             
-          </Menu>
+          </Box>
          
      
           

@@ -39,7 +39,7 @@ function Customer() {
 
             
 
-            <Box  minH='90vh' w={'100%'} margin='auto' bgColor={'#F7F7F8'} mt='7%'>
+            <Box  minH='110vh' w={'100%'} margin='auto' bgColor={'#F7F7F8'} mt='7%'>
               <Box textAlign={'center'}>
                 <Box fontSize={'3xl'} textColor='#0354C2' fontWeight={'bold'}> Our Intranet Success Stories</Box>
               </Box>
