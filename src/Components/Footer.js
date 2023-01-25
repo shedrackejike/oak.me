@@ -1,4 +1,4 @@
-import { Flex,Box,Link,Image} from '@chakra-ui/react'
+import { Flex,Box,Link,Image,Text} from '@chakra-ui/react'
 import React from 'react'
 import {FaFacebookF,FaTwitter,FaInstagram} from 'react-icons/fa'
 import {GrLinkedinOption} from 'react-icons/gr'
@@ -67,30 +67,24 @@ function Footer() {
 
             </Box>
 
-            {/* <Box  mt='10' h={'10vh'} w='100%' bgColor={"yellow"}>
-            <Box h={'5%'} w='12%'>
-                <img src='/image/1-oak-engage-logo-blue.png'/>
-            </Box>
 
-            </Box> */}
-
-            <Flex minH={'50vh'} justifyContent={{'xl':'space-between',}} flexDirection={{'base': "column",'lg': "flex",'xl': "column"}}
-            w={{'base': "100%",'lg': "90%",'xl': "90%"}}  alignItems= {{"base":"center","lg":"center","xl":"flex"}}  >
-               <Box alignItems={{"base":"center","lg":"flex","xl":"flex-start"}} >
+            <Flex   justifyContent={{'xl':'space-between',}} flexDirection={{'base': "column",'lg': "flex",'xl': "column"}}
+            w={{'base': "100%",'lg': "90%",'xl': "100%"}}  alignItems= {{"base":"center","lg":"center","xl":"flex"}} mt='7' >
+               <Box  alignItems={{"base":"center","lg":"flex","xl":"flex-start"}}    w={{'base': "50%",'lg': "90%",'xl': "100%"}}   >
                <Image 
                 src='/image/1-oak-engage-logo-blue.png'
-                h={"50px"}
+                h={"60px"}
                 w="100px"
                 />
                </Box>
-           <Flex justifyContent={{'xl':'space-between',}} flexDirection={{'base': "column",'lg': "column",'xl': "row"}}
-            w={{'base': "90%",'lg': "70jn%",'xl': "90%"}}>
+           <Flex  justifyContent={{'xl':'space-between',}} flexDirection={{'base': "column",'lg': "column",'xl': "row"}}
+            w={{'base': "90%",'lg': "70%",'xl': "100%"}}>
 
-           <Box m={"auto"} w={{"base":"90%","lg":"100%","xl":"43%"}} textAlign={{"base":"center","lg":"center","xl":"flex-start"}}
+           <Text    w={{"base":"90%","lg":"100%","xl":"43%"}} textAlign={{"base":"center","lg":"center","xl":"flex-start"}}
             fontSize={{"base":"14px","lg":"20%px","xl":"13px"}}  >© Oak Engage 2022. All rights reserved. <br/>
-                View our website privacy policy here and our application privacy policy here.
-            </Box>
-            <Box minH={'13vh'} w={{"base":"100%","lg":"30%","xl":"30%"}}  alignItems={{"base":"center","lg":"flex","xl":"flex-end"}} >
+                View our website pri vacy policy here and our application privacy policy here.
+            </Text>
+            <Box  minH={'13vh'} w={{"base":"100%","lg":"30%","xl":"30%"}}  alignItems={{"base":"center","lg":"flex","xl":"flex-end"}} >
 
 
 
