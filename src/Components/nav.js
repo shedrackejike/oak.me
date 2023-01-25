@@ -6,6 +6,7 @@ import {
   MenuButton,
   useColorModeValue,
   useColorMode,
+  Text,
   Button,
 } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
@@ -71,7 +72,7 @@ const Nav = () => {
 
           </Link>
           <Flex
-            fontWeight="extrabold"
+            fontWeight="bold"
             fontSize="17px"
             w="100%"
             display={{ base: "none", lg: "flex", xl: "flex" }}
@@ -80,37 +81,37 @@ const Nav = () => {
           >
            <Menu >
                   
-                                 <MenuButton bg="transparent" textColor={'#0354C2'}>
+                                 <Text  bg="transparent" textColor={'#0354C2'}>
                                      <Link to="/WhyOak">Why Oak</Link>
                                     
-                                   </MenuButton>
-                                     <MenuButton as={Button} bg="transparent" textColor={'#0354C2'}>
+                                   </Text>
+                                     <Text as={Button} bg="transparent" textColor={'#0354C2'}>
                                      Solutions  
-                                  </MenuButton>
+                                  </Text>
                   
-                                   <MenuButton as={Button} bg="transparent" textColor={'#0354C2'}>
+                                   <Text as={Button} bg="transparent" textColor={'#0354C2'}>
                                    Product
-                                </MenuButton>
+                                </Text>
                   
-                                 <MenuButton as={Button} bg="transparent" textColor={'#0354C2'}>
+                                 <Text as={Button} bg="transparent" textColor={'#0354C2'}>
                                  Services
                                 
-                                 </MenuButton>
+                                 </Text>
                   
-                                  <MenuButton as={Button} bg="transparent" textColor={'#0354C2'}>
+                                  <Text as={Button} bg="transparent" textColor={'#0354C2'}>
                                   <Link color='teal.500' href='https://cdnjs.com/libraries/font-awesome'>
                                   Pricing
                                 </Link> 
-                                </MenuButton>
+                                </Text>
                   
-                                <MenuButton bg="transparent" textColor={'#0354C2'}>
+                                <Text bg="transparent" textColor={'#0354C2'}>
                                   <Link to="/customer">Customers</Link>
                                     
-                                </MenuButton>
+                                </Text>
                   
-                                <MenuButton as={Button} bg="transparent" textColor={'#0354C2'}>
+                                <Text as={Button} bg="transparent" textColor={'#0354C2'}>
                                 Resources
-                              </MenuButton>
+                              </Text>
                                 <MenuButton as={Button} bg="transparent" textColor={'#0354C2'} bgColor='#ADD9F0' borderRadius={'3xl'} >
                                 Get a Demo
                              </MenuButton>

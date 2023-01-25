@@ -95,9 +95,10 @@ function Footer() {
 
 
                 <Image 
+                w="fit-content"
                 src='/image/certification-logos.png'
                 h={"50px"}
-                w="100px"
+            
                 />
             </Box>
            </Flex>
